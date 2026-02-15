@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Card from './components/ui/Card';
 import Badge from './components/ui/Badge';
 import Timeline from './components/Timeline';
+import Contact from './components/Contact';
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -280,6 +281,9 @@ const Portfolio = () => {
             ))}
           </div>
         </section>
+
+        {/* Contact Section */}
+        <Contact />
 
       </main>
 
